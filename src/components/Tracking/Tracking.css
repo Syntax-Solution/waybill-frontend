@@ -1,0 +1,19 @@
+.Tracking {
+    height: 68vh;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+.Tracking:before {
+    content: '';
+    background: url('../../assets/track.jpg') no-repeat center center/cover;
+    background-color: #1d0803;
+    background-blend-mode: screen;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
