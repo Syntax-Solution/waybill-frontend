@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import FeedbackCard from "./FeedbackCard";
 import Carousel from "nuka-carousel";
 import sam from '../assets/sam.jpg'

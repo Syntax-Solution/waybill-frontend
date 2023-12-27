@@ -3,7 +3,6 @@ import "./Hero.css";
 import truckss from "../../assets/truckss.jpg";
 import { Link } from 'react-scroll'
 import { FaChevronDown } from "react-icons/fa";
-import { FaAngleRight } from "react-icons/fa";
 
 const Hero = () => {
   return (

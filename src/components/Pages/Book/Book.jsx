@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import back from "../../../assets/back.jpg";
 import axios from "axios";
 import "./Book.css";
-import { Select, Option } from "@material-tailwind/react";
 
 const Book = () => {
   const [countries, setCountries] = useState([]);
